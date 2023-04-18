@@ -1,1 +1,2 @@
 # SQL-in-action
+A successful Airbnb in this market seems to have a lower or average rental price and many reviews. Location matters, but what seems very popular too is the minimum night stay and also the availability to customers.
