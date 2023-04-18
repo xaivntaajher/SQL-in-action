@@ -100,9 +100,14 @@ limit 1;
 -- <<<<<<<<<<<<<<<<<<<<<<< WRAP UP >>>>>>>>>>>>>>>>>>>>>>>>>
 -- What do you think makes a successful AirBnB rental in this market? What factors seem to be at play the most?
 -- Write a few sentences and include them with your project submission in the README file 
-
+select * from intro_sql.final_airbnb
+order by number_of_reviews desc;
 
 -- <<<<<<<<<<<<<<<<<<<<< ** BONUS ** >>>>>>>>>>>>>>>>>>>>>>>
--- Find the the percent above or below each listing is compared to the average price for all listings.
+-- Find the the percent above or below each listing is compared to the average price for all listings. avg price 165.1027
 -- HINT: No hints! It's a bonus for a reason :)
+select avg(price) from intro_sql.final_airbnb;
+select price, (price / 165.1027) * 100 as percent_difference from intro_sql.final_airbnb
+group by price
+order by price desc;
 
