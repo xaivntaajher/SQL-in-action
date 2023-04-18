@@ -37,3 +37,9 @@ Make sure you have covered enough content to meet the prerequisites before start
 > ‼️ Make sure to check out the walk-through video on your course portal to see this setup process happening live!
 
 
+-- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 11 >>>>>>>>>>>>>>>>>>>>>>>
+-- <<<<<<<<<<<<<<<<<<<<<<< WRAP UP >>>>>>>>>>>>>>>>>>>>>>>>>
+-- What do you think makes a successful AirBnB rental in this market? What factors seem to be at play the most?
+-- Write a few sentences and include them with your project submission in the README file 
+
+A successful Airbnb in this market seems to have a lower or average rental price and many reviews. Location matters, but what seems very popular too is the minimum night stay and also the availability to customers.
